@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("image/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer{
+    display: flex;
+    color: white;
+}
+
+.num-day , .num-hour ,.num-minute ,.num-second {
+    font-size: 100px;
+    margin:0px 50px 0px 50px ;
+   
+}
+
+.title-day , .title-hour  ,.title-minute , .title-second {
+    text-align: center;
+    margin:0px 50px 0px 50px ;
+}
